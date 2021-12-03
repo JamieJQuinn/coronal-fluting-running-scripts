@@ -1,0 +1,3 @@
+[submodule "lare3d"]
+	path = lare3d
+	url = https://github.com/JamieJQuinn/lare3d.git
