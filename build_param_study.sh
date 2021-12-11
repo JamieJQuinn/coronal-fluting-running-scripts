@@ -2,12 +2,13 @@
 
 set -e
 
-defines=
 mpif90=mpiifort
 compiler=intel
 #mode=debug
 
 for folder in "$@"; do
+  defines=
+
   pushd $folder
   if [[ $folder =~ "-switching" ]]; then
     defines+=" -DSWITCHING_VISCOSITY "
