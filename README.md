@@ -6,13 +6,13 @@ This is the collection of scripts used to generate parameter studies for my rese
 
 ```git clone --recursive```
 
-1a. If the repo is already cloned non-recursively, fetch lare3d manually: 
+If the repo is already cloned non-recursively, fetch lare3d manually: 
 
-```git submodule --init --recursive```
+```git submodule update --init --recursive```
 
 2. Create a new param study genertion script or use already existing script
-  a. Set output directory
-  b. Set parameters to vary/keep constant
+  1. Set output directory
+  2. Set parameters to vary/keep constant
 
 3. Run newly created script to generate individual runs (this will copy the version of lare3d many times)
 
